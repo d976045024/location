@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
-    <title>自适应显示多个点标记</title>
+    <title>华中科技大学校园内定位</title>
     <link rel="stylesheet" href="https://a.amap.com/jsapi_demos/static/demo-center/css/demo-center.css"/>
     <style>
         html, body, #container {
@@ -30,7 +30,7 @@
     <div id="tips"></div>
 </div>
 <script type="text/javascript"
-        src="https://webapi.amap.com/maps?v=1.4.15&key=您申请的key值"></script>
+        src="https://webapi.amap.com/maps?v=1.4.15&key=e42f211cf6ad364ae8617c2f4164b6f1"></script>
 <script type="text/javascript">
     var map = new AMap.Map('container', {
         resizeEnable: true,
@@ -42,17 +42,23 @@
 
     var markers = [{
         //icon: '//a.amap.com/jsapi_demos/static/demo-center/icons/poi-marker-1.png',
-        position: [114.42718851203452, 30.51602320191297]
+        position: [30.513522420616514, 114.42718829415851].reverse()
     }, {
         //icon: '//a.amap.com/jsapi_demos/static/demo-center/icons/poi-marker-2.png',
-        position: [114.42444444444445, 30.51638888888889]
+        position: [30.514075574047936, 114.4299618932075].reverse()
     }, {
         //icon: '//a.amap.com/jsapi_demos/static/demo-center/icons/poi-marker-3.png',
-        position: [114.42444444444445, 30.515833333333333]
+        position: [30.513519845332937, 114.42996184480012].reverse()
     }, {
-        position: [114.42722222222223, 30.51638888888889]
+        position: [30.514072655903277, 114.43273505863442].reverse()
     }, {
-        position: [114.42888888888889, 30.516111111111112]
+        position: [30.513792877480007, 114.43439875048352].reverse()
+    }, {
+        position: [30.513513669716104, 114.43550779462785].reverse()
+    }, {
+        position: [30.51212434926491, 114.43550767374259].reverse()
+    }, {
+        position: [30.51212259463053, 114.43689392463017].reverse()
     }
     ];
 
